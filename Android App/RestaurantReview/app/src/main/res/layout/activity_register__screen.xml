@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register_Screen"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/register_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:drawableLeft="@drawable/app_logo_small"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        android:text="Register A Feast Account !"
+        android:textColor="@color/default_orange"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_reg_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/register_title"
+        app:layout_constraintStart_toStartOf="@+id/register_title"
+        app:layout_constraintTop_toBottomOf="@+id/register_title" />
+
+    <EditText
+        android:id="@+id/et_reg_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/et_reg_email"
+        app:layout_constraintStart_toStartOf="@+id/et_reg_email"
+        app:layout_constraintTop_toBottomOf="@+id/et_reg_email" />
+
+    <EditText
+        android:id="@+id/et_reg_fname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_reg_password"
+        app:layout_constraintStart_toStartOf="@+id/et_reg_password"
+        app:layout_constraintTop_toBottomOf="@+id/et_reg_password" />
+
+    <EditText
+        android:id="@+id/et_reg_lname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_reg_fname"
+        app:layout_constraintStart_toStartOf="@+id/et_reg_fname"
+        app:layout_constraintTop_toBottomOf="@+id/et_reg_fname" />
+
+    <EditText
+        android:id="@+id/et_reg_phone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Tel no."
+        android:inputType="phone"
+        android:maxLength="10"
+        app:layout_constraintEnd_toEndOf="@+id/et_reg_lname"
+        app:layout_constraintStart_toStartOf="@+id/et_reg_lname"
+        app:layout_constraintTop_toBottomOf="@+id/et_reg_lname" />
+
+    <Button
+        android:id="@+id/btn_reg_register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Register Account"
+        app:layout_constraintEnd_toEndOf="@+id/et_reg_phone"
+        app:layout_constraintStart_toStartOf="@+id/et_reg_phone"
+        app:layout_constraintTop_toBottomOf="@+id/et_reg_phone"
+        android:background="@drawable/orange_round_corner"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/tv_reg_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="ERROR"
+        app:layout_constraintEnd_toEndOf="@+id/btn_reg_register"
+        app:layout_constraintStart_toStartOf="@+id/btn_reg_register"
+        app:layout_constraintTop_toBottomOf="@+id/btn_reg_register"
+        android:textColor="@color/error_red"
+        android:drawableLeft="@drawable/ic_error"
+        android:gravity="center"
+        android:drawablePadding="4dp"
+        android:drawableTint="@color/error_red"
+        android:visibility="invisible"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

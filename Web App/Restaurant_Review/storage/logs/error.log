@@ -1,0 +1,14 @@
+2020-10-01 9:44:11 - PHP Notice:  Undefined index: email in C:\xampp\htdocs\Restaurant_Review\catalog\controller\api\review_api.php on line 10
+2020-10-01 9:44:11 - PHP Notice:  Undefined index: password in C:\xampp\htdocs\Restaurant_Review\catalog\controller\api\review_api.php on line 10
+2020-10-01 9:44:47 - PHP Notice:  Undefined index: email in C:\xampp\htdocs\Restaurant_Review\catalog\controller\api\review_api.php on line 10
+2020-10-01 9:44:47 - PHP Notice:  Undefined index: password in C:\xampp\htdocs\Restaurant_Review\catalog\controller\api\review_api.php on line 10
+2020-10-02 5:26:45 - PHP Notice:  Trying to get property 'num_rows' of non-object in C:\xampp\htdocs\Restaurant_Review\catalog\model\catalog\review_api.php on line 40
+2020-10-02 8:28:18 - PHP Warning:  fopen(C:/xampp//htdocs/Restaurant_Review/storage/cache/cache.catalog.language.1601630898): failed to open stream: Permission denied in C:\xampp\htdocs\Restaurant_Review\system\library\cache\file.php on line 49
+2020-10-02 8:28:18 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\Restaurant_Review\system\library\cache\file.php on line 51
+2020-10-02 8:28:18 - PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\Restaurant_Review\system\library\cache\file.php on line 53
+2020-10-02 8:28:18 - PHP Warning:  fflush() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\Restaurant_Review\system\library\cache\file.php on line 55
+2020-10-02 8:28:18 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\Restaurant_Review\system\library\cache\file.php on line 57
+2020-10-02 8:28:18 - PHP Warning:  fclose() expects parameter 1 to be resource, bool given in C:\xampp\htdocs\Restaurant_Review\system\library\cache\file.php on line 59
+2020-10-02 9:43:57 - PHP Notice:  Undefined variable: ids in C:\xampp\htdocs\Restaurant_Review\catalog\model\catalog\review_api.php on line 70
+2020-10-03 7:53:26 - PHP Warning:  unlink(C:/xampp//htdocs/Restaurant_Review/storage/cache/cache.catalog.language.1601715206): No such file or directory in C:\xampp\htdocs\Restaurant_Review\system\library\cache\file.php on line 68
+2020-10-05 8:04:01 - PHP Warning:  unlink(C:/xampp//htdocs/Restaurant_Review/storage/cache/cache.catalog.language.1601888638): No such file or directory in C:\xampp\htdocs\Restaurant_Review\system\library\cache\file.php on line 68
